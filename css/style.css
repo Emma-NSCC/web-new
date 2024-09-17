@@ -1,6 +1,6 @@
 
 body {
-    background-color: rgb(226, 236, 228);
+    background-color: rgb(231, 231, 231);
     margin-left: 15px;
    font-family: arial,verdana,sans-serif;
    font-size: 15px;
@@ -10,17 +10,31 @@ body {
 H1 {
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    font-size: 36px;
-   color: rgb(13, 84, 28);
+   color: rgb(50, 50, 50);
 }
 
 H2 {
    font-family: arial,verdana,sans-serif;
    font-size: 20px;
-   color: rgb(10, 55, 19);
+   color: rgb(50, 50, 50);
+}
+
+H3{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 36px;
+   color: rgb(231, 231, 231);
 }
 
 P {
    font-family: arial,verdana,sans-serif;
    font-size: 15px;
    color: black;
+   
+}
+.header {
+   position: sticky;
+   top: 0;
+   background: rgb(46, 46, 46);
+   padding: 10px;
+      
 }
