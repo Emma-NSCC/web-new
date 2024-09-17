@@ -29,12 +29,32 @@ P {
    font-family: arial,verdana,sans-serif;
    font-size: 15px;
    color: black;
-   
 }
+
 .header {
    position: sticky;
    top: 0;
    background: rgb(46, 46, 46);
    padding: 10px;
+   text-align: center;
+}
+
+.button{
+   background-color: white;
+   align-content: center;
+   padding: 20px;
+   margin-top: 25px;
+}
+
+.column{
+   float: left;
+   width: 50%;
       
 }
+
+.row:after{
+   content: "";
+   display: table;
+   clear: both;
+}
+   
