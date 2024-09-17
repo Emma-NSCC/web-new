@@ -47,6 +47,8 @@ P {
    align-content: center;
    padding: 20px;
    margin-top: 25px;
+   border-radius: 20px;
+   
 }
 
 .column{
