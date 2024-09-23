@@ -63,4 +63,7 @@ P {
    display: table;
    clear: both;
 }
+ul{
+   line-height: 25px;
+}
    
