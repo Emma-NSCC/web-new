@@ -61,16 +61,10 @@ P {
    float: left;
    width: 50%;
    align-content: center;
+   margin-top: 20px;
    margin: auto;
 }
 
-.column-title{
-   float: left;
-   width: 50%;
-   align-content: center;
-   margin: auto;
-   margin-top: 200px;
-}
 
 .row:after{
    content: "";
