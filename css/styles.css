@@ -10,13 +10,13 @@ body {
 H1 {
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    font-size: 30px;
-   color: rgb(50, 50, 50);
+   color: crimson;
 }
 
 H2 {
    font-family: arial,verdana,sans-serif;
    font-size: 20px;
-   color: rgb(50, 50, 50);
+   color: #323232;
 }
 
 H3{
@@ -43,13 +43,6 @@ P {
    font-family: arial,verdana,sans-serif;
 }
 
-.button{
-   background-color: rgb(226, 226, 226);
-   align-content: center;
-   padding: 20px;
-   border-radius: 20px;
-   
-}
 
 .title{
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans serif;
@@ -57,20 +50,6 @@ P {
    color: rgb(55, 50, 50);
 }
 
-.column{
-   float: left;
-   width: 50%;
-   align-content: center;
-   margin-top: 20px;
-   margin: auto;
-}
-
-
-.row:after{
-   content: "";
-   display: table;
-   clear: both;
-}
 ul{
    line-height: 25px;
 }
