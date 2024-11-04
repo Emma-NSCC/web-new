@@ -1,0 +1,52 @@
+
+body {
+    background-color: antiquewhite;
+}
+
+.type1 {
+    line-height: 60px;
+    font-family: "Itim", cursive;
+    font-size: 20px;
+}
+
+.type2 {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.type3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+}
+
+.type4 {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 20px;
+}
+
+.type5 {
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.type6 {
+    font-family: "Tiny5", serif;
+    font-weight: 400;
+}
+
+.type7 {
+    font-family: "Rubik Wet Paint", serif;
+    font-size: 25px;
+}
+
+.type8 {
+    font-family: "Raleway", serif;
+    letter-spacing: 20px;
+    text-align: center;
+}
+
+.type9 {
+    font-family: "Oswald", serif;
+}
