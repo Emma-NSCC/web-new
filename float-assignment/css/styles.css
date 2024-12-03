@@ -1,0 +1,104 @@
+
+.yellow-container {
+    background-color: yellow;
+    padding: 30px;
+    align-content: center;
+    margin-top: 20px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    margin: auto;
+    width: 600px;
+}
+
+.green-container {
+    background-color: limegreen;
+    height: auto;
+    width: 500px;
+    align-content: center;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.cyan-box {
+    background-color: cyan;
+    width: 150px;
+    height: 150px;
+    float: left;
+    text-align: center;
+    display: block;
+}
+
+.brown-box {
+    background-color: tan;
+    width: 150px;
+    height: 150px;
+    float: right;
+    text-align: center;
+    display: block;
+}
+
+.blue-container {
+    background-color: cadetblue;
+    height: auto;
+    width: 500px;
+    align-content: center;
+    padding: 20px;
+    margin: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.top-boxes {
+    margin-bottom: 170px;
+}
+
+.white-box {
+    background-color: antiquewhite;
+    width: 150px;
+    height: 150px;
+    float: left;
+    text-align: center;
+}
+
+.black-box {
+    background-color: black;
+    width: 150px;
+    height: 150px;
+    float: right;
+    text-align: center;
+    color: white;
+}
+
+.orange-box {
+    display: block;
+    background-color: orange;
+    height: 150px;
+    margin: 0 auto;
+    clear: both;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.brown-container {
+    background-color: saddlebrown;
+    width: 500px;
+    align-content: center;
+    padding: 20px;
+    margin: auto;
+    display: block;
+    height: auto;
+    color: white;
+}
+
+.purple-box {
+    background: purple;
+    height: 150px;
+    width: 150px;
+    color: white;
+    text-align: center;
+    float: left;
+    display: inline;
+    margin-right: 15px;
+}
