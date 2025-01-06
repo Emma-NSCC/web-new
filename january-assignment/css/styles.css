@@ -36,7 +36,7 @@ h1 {
 
 .imgwmargins {
     display: block;
-    margin: 20px;
+    margin: 0 auto;
     width: 450px;
     margin-left: 150px;
     align-content: center;
