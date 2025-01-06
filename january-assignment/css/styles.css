@@ -1,0 +1,52 @@
+body {
+    background-color: #bccdea;
+}
+
+h1 {
+    color: red;
+}
+
+.enclosing-container {
+    background-color: yellow;
+    width: 500px;
+    height: 250px;
+    align-content: center;
+    padding: 20px;
+    display: block;
+    margin: auto;
+}
+
+.container-one {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    float: left;
+    color: white;
+    text-align: center;
+}
+
+.container-two {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    float: right;
+    color: white;
+    text-align: center;
+}
+
+.imgwmargins {
+    display: block;
+    margin: 20px;
+    width: 450px;
+    margin-left: 150px;
+    align-content: center;
+    text-align: center;
+}
+
+.loose-image {
+    align-content: center;
+    display: block;
+    text-align: center;
+    float: center;
+    margin: auto 0;
+}
