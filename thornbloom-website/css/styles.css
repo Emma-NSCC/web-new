@@ -1,0 +1,210 @@
+.bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    flex-direction: row;
+    padding: 10px;
+    margin: 10px 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 20px;
+}
+
+nav a {
+    font-size: 22px;
+    padding-right: 15px;
+    text-decoration: none;
+    color:  #212f52;
+    margin: 8px 8px;
+    align-items: center;
+}
+
+.box {
+    background-color: #212f52;
+    height: 35px;
+}
+
+.banner {
+    background-image: url(../assets/banner-img.jpg);
+    color: white;
+    background-color: #212f52;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+.banner-text {
+    font-size: 50px;
+}
+
+.learn-more {
+    background-color: #212f52;
+    padding: 10px;
+    width: 150px;
+    text-align: center;
+}
+
+.learn-more a {
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    text-align: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-top: 40px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin: 40px;
+}
+
+.button-1 {
+    background-color: #212f52;
+    padding: 10px;
+    width: 140px;
+}
+
+.button-1 a {
+    color: white;
+    text-decoration: none;
+}
+
+.button-2 {
+    border: solid #212f52;
+    padding: 8px;
+    width: 140px;
+}
+
+.button-2 a {
+    text-decoration: none;
+    color: #212f52;
+}
+
+hr {
+    border: solid #212f52 1px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.card-1 {
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    margin-left: 80px;
+    margin-right: 80px;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.card-1 h3, .card-1 p {
+    text-align: right;
+}
+
+.card-2 {
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.card-3 {
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    text-align: right;
+}
+
+.card-4 {
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 40px;
+}
+
+footer {
+    display: flex;
+    background-color: lightgrey;
+    padding: 20px;
+    gap: 20px;
+    justify-content: space-between;
+    margin: 10px;
+    flex-direction: column;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.info {
+    display: flex;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 20px;
+    gap: 20px;
+    justify-content: space-between;
+    text-align: left;
+    flex-wrap: wrap;
+}
+
+.right-column {
+    text-align: right;
+    line-height: 40px;
+}
+
+.left-column {
+        line-height: 25px;
+}
+
+.rule-left {
+    margin-left: 0;
+    border: 1px solid grey;
+    width: 30%;
+    margin-right: 70%;
+}
+
+.rule-right {
+    margin-right: 0;
+    border: 1px solid grey;
+    width: 30%;
+    margin-left: 70%;
+}
+
+h3 {
+    color: #212f52;
+    font-size: 32px;
+    font-weight: 300;
+}
+
+.hero-bar {
+    border: 1px solid;
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+
+header h1 {
+    color: #212f52;
+    font-size: 38px;
+    font-weight: 500;
+}
+
+p {
+    line-height: 24px;
+}
