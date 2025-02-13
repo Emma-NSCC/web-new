@@ -8,9 +8,10 @@ body {
 }
 
 H1 {
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   font-size: 30px;
-   color: royalblue;
+   font-family: Lucida Sans;
+   font-size: 25px;
+   font-weight: 1000;
+   color: black;
    text-align: center;
 }
 
@@ -19,6 +20,7 @@ H2 {
    margin-left: 20px;
    font-size: 20px;
    color: #050037;
+   margin-bottom: 3px;
 }
 
 H3{
@@ -55,10 +57,6 @@ P {
 ul{
    line-height: 25px;
 }
-   
-.green-text{
-   color: green;
-}
 
 .box {
    background-color: lightgrey;
@@ -81,7 +79,14 @@ body {
 }
 
 hr {
-   border: 1px solid royalblue;
+   border: 1px solid rgba(128, 128, 128, 0.5);
+}
+
+.h2-bar {
+   border: 1px solid grey;
+   width: 70px;
+   margin-left: 20px;
+   margin-top: 0;
 }
 
 .internal-box {

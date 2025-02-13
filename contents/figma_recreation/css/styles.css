@@ -1,0 +1,274 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-family: "Aoboshi One", serif;
+    font-size: 64px;
+}
+
+h2 {
+    font-family: "Aoboshi One", serif;
+    font-size: 32px;
+}
+
+h3 {
+    font-family: "Aoboshi One", serif;
+    font-size: 20px;
+}
+
+/* Navigation */
+header {
+    display: flex;
+    padding: 40px 60px;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+.left-items {
+    width: 100%;
+}
+
+.logo {
+    width: 127px;
+    height: 40px;
+}
+
+.right-items {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 24px;
+    width: 100%;
+}
+
+/* Hero Banner */
+.hero {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 16px;
+    height: 548px;
+    background-image: url("../images/banners/hero-bg.jpg");
+    background-size: cover;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.button {
+    background-color: #FFC900;
+    padding: 8px 24px;
+    text-decoration: none;
+    color: #000000;
+    font-family: "Inter", serif;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+/* Main content */
+.main-content {
+    width: 100%;
+    align-content: center;
+    display: flex;
+    margin: 20px auto;
+    padding: 20px;
+    justify-content: center;
+}
+
+/* First Section */
+.section-one {
+    width: 65%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.title-left {
+    display: flex;
+    align-items: left;
+    justify-content: flex-start;
+    width: 100%;
+    font-family: "Istok Web", serif;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+.title-right {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    font-family: "Istok Web", serif;
+}
+
+/* Women's Department */
+.images {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex: auto;
+    flex-wrap: wrap;
+    max-width: fit-content;
+    gap: 10px;
+    padding: 10px;
+    font-family: "Istok Web", serif
+}
+
+    .one {
+        max-width: fit-content;
+    }
+
+    .two {
+        max-width: fit-content;
+    }
+
+    .three {
+        max-width: fit-content;
+    }
+
+    .four {
+        max-width: fit-content;
+    }
+
+    .item {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        padding-left: 3px;
+        width: 90%;
+    }
+
+    .price {
+        font-weight: 800;
+        font-size: 13px;
+        margin-top: 5px;
+        padding-left: 3px;
+    }
+
+/* Second Section */
+.section-two {
+    width: 65%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Sale Banner */
+.sale-banner {
+    background-image: url("../images/banners/sale-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 55%;
+    height: auto;
+    align-content: center;
+    display: flex;
+    margin: 60px auto;
+    padding: 80px;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    line-height: 30px;
+    overflow: auto;
+}
+
+.unbeatable {
+    font-family: "Aoboshi One", serif;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.hurry {
+    font-family: "Istok Web", serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.button-black {
+    background-color: #000000;
+    padding: 8px 24px;
+    text-decoration: none;
+    color: #FEC900;
+    font-family: "Inter", serif;
+    font-weight: 500;
+    font-size: 15px;
+    width: 12%;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    padding: 80px 60px;
+    align-items: flex-start;
+    background-color: #000000;
+    color: white;
+}
+
+/* Footer LEFT */
+.footer-left {
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    width: 100%;
+    margin-left: 20%;
+    flex-direction: column;
+    gap: 20px;
+    display: flex;
+}
+
+.footer-logo {
+    width: 100%;
+}
+
+.copyright {
+    font-family: "Istok Web", serif;
+    font-size: 14px;
+}
+
+/* Footer RIGHT */
+.footer-right {
+    justify-content: right;
+    text-align: left;
+    width: 100%;
+    margin-right: 20%;
+    flex-direction: row;
+    gap: 60px;
+    display: flex;
+}
+
+.column-title {
+    font-family: "Istok Web", serif;
+    font-weight: 1000;
+    line-height: 60px;
+}
+
+.footer-text {
+    line-height: 35px;
+    font-family: "Istok Web", serif;
+}
+
+.social-link-buttons {
+    gap: 10px;
+    display: flex;
+}
