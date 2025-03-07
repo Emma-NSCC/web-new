@@ -64,24 +64,49 @@
     width: 1000px;
     display: flex;
     background-color: #FFFFFF;
-    justify-content: space-between;
+    justify-content: center;
     padding: 80px;
     margin: 0 auto;
     padding-left: 100px;
     padding-right: 100px;
     font-family: "Manrope", sans-serif;
+    align-items: center;
+    gap: 30px;
 }
 
 .our-services {
     font-size: 42px;
+    align-items: center;
+    justify-content: center;
 }
 
 .services {
     display: flex;
     gap: 20px;
+    align-items: center;
+    justify-content: center;
 }
 
 .service img {
-    width: 413px;
-    height: 356px;
+    width: 300px;
+    height: 258px;
+}
+
+.service-text {
+    font-family: "Manrope", sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    gap: 20px;
+    width: 90%;
+}
+
+.service-title {
+    font-size: 24px;
+}
+
+.service {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
