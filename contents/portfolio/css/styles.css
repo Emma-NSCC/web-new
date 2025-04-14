@@ -1,0 +1,61 @@
+main {
+    background-color: darkgrey;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: lightgrey;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    background-color: lightgreen;
+    padding: 12px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.buttons {
+    background-color: lightgreen;
+    padding: 18px;
+}
+
+/* Page Content */
+.about {
+    margin-bottom: 200px;
+}
+
+.content {
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.column-1 {
+    width: 300px;
+    background-color: blue;
+    padding: 19px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.column-2 {
+    width: 300px;
+    background-color: yellow;
+    padding: 19px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+h1 {
+    font-size: 20px;
+}
